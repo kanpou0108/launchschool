@@ -1,0 +1,1 @@
+This repository contains excercises in [launchschool](https://launchschool.com/)
