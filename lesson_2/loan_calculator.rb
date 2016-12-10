@@ -54,9 +54,9 @@ loop do
                     (monthly_interest_rate /
                     (1 - (1 + monthly_interest_rate)**(-months.to_i())))
 
-  prompt("Your monthly payment is: $#{format('%02.2f', monthly_payment)}")
+  prompt("Your monthly payment is: $#{Kernel.format('%02.2f', monthly_payment)}")
 
-  prompt("Another calculation?")
+  prompt("Another calculation? Press 'y' to confirm.")
   answer = Kernel.gets().chomp()
 
   break unless answer.downcase().start_with?('y')
