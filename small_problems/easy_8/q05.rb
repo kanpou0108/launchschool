@@ -16,7 +16,7 @@ def substrings(string)
 end
 
 def palindromes()
-  
+    # ...failed...
 end
 
 p palindromes('abcd') == []
