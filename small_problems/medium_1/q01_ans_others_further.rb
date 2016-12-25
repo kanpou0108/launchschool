@@ -1,10 +1,25 @@
-def rotate_array(arr)
-  result = []
-  result << arr[1..-1] << arr[0]
-  result.flatten
+# def rotate_array(array)  
+#   new_array = []
+#   i = 1
+#   while i < array.size 
+#     new_array << array[i]
+#     i += 1
+#   end
+#   new_array << array[0]
+# end
+# For further expression
+
+def rotate_array(array)
+  array[1..-1] + [array[0]]
 end
 
-p rotate_array([7, 3, 5, 2, 9, 1])
+def rotate_integer(integer)
+  rotate_array(integer.to_s.chars).join.to_i
+end
+
+def rotate_string(string)
+  rotate_array(string.chars).join
+end
 
 p rotate_array([7, 3, 5, 2, 9, 1]) == [3, 5, 2, 9, 1, 7]
 p rotate_array(['a', 'b', 'c']) == ['b', 'c', 'a']
