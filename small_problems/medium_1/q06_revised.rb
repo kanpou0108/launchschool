@@ -1,75 +1,69 @@
-# ..failed....
-
 def minilang(strings)
   register = 0
   register_arr = []
   register_arr << register
   strings.split.each do |elem|
-    # p register
-    p register_arr
+    # p register_arr
     register = commands(elem, register_arr, register)
   end
   
 end
 
 def commands(word, register_arr, register)
-  # register = register.to_i
   case word
   when 'PUSH'
     register_arr << register
     register
   when 'ADD'
-    register += register_arr[-1]
+    register += register_arr.pop
   when 'SUB'
-    register -= register_arr[-1]
+    register -= register_arr.pop
   when 'MULT'
-    register *= register_arr[-1]
+    register *= register_arr.pop
   when 'DIV'
-    register /= register_arr[-1]
+    register /= register_arr.pop
   when 'MOD'
-    register %= register_arr[-1]
+    register %= register_arr.pop
   when 'POP'
-    register_arr.pop
-    register = register_arr[-1]
+    register = register_arr.pop
   when 'PRINT'
     puts register
     register
   else
-    # register = word.to_i
     word.to_i
   end
 end
 
-# minilang('PRINT')
-# # 0
-# puts "----------------------------------"
-# minilang('5 PUSH 3 MULT PRINT')
-# # 15
-# puts "----------------------------------"
-# minilang('5 PRINT PUSH 3 PRINT ADD PRINT')
-# # 5
-# # 3
-# # 8
-# puts "----------------------------------"
-# minilang('5 PUSH POP PRINT')
-# # 5
-# puts "----------------------------------"
+minilang('PRINT')
+# 0
+puts "----------------------------------"
+minilang('5 PUSH 3 MULT PRINT')
+# 15
+puts "----------------------------------"
+minilang('5 PRINT PUSH 3 PRINT ADD PRINT')
+# 5
+# 3
+# 8
+puts "----------------------------------"
+minilang('5 PUSH POP PRINT')
+# 5
+puts "----------------------------------"
 minilang('3 PUSH 4 PUSH 5 PUSH PRINT ADD PRINT POP PRINT ADD PRINT')
 # 5
 # 10
 # 4
 # 7
-# puts "----------------------------------"
-# minilang('3 PUSH PUSH 7 DIV MULT PRINT ')
-# # 6
-# puts "----------------------------------"
-# minilang('4 PUSH PUSH 7 MOD MULT PRINT ')
-# # 12
-# puts "----------------------------------"
-# minilang('-3 PUSH 5 SUB PRINT')
-# # 8
-# puts "----------------------------------"
-# minilang('6 PUSH')
+puts "----------------------------------"
+minilang('3 PUSH PUSH 7 DIV MULT PRINT ')
+# 6
+puts "----------------------------------"
+minilang('4 PUSH PUSH 7 MOD MULT PRINT ')
+# 12
+puts "----------------------------------"
+minilang('-3 PUSH 5 SUB PRINT')
+# 8
+puts "----------------------------------"
+minilang('6 PUSH')
 # (nothing printed; no PRINT commands)
 
 # 
