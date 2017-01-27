@@ -1,35 +1,13 @@
-# 
-# Give us your feedback
-# Accessor
-# 
-# Using the code from the previous exercise, replace the getter and setter methods using Ruby shorthand.
-# 
-# Code:
-# 
-# class Cat
-#   attr_reader :name
-#   attr_writer :name
-# 
-#   def initialize(name)
-#     @name = name
-#   end
-# 
-#   def greet
-#     puts "Hello! My name is #{name}!"
-#   end
-# end
-# 
-# kitty = Cat.new('Sophie')
-# kitty.greet
-# kitty.name = 'Luna'
-# kitty.greet
-# Expected output:
-# 
-# Hello! My name is Sophie!
-# Hello! My name is Luna!
+module Walkable
+  def walk
+    puts "Let's go for a walk!"
+  end
+end
 
 class Cat
-  attr_accessor :name
+  include Walkable
+
+  attr_reader :name
 
   def initialize(name)
     @name = name
@@ -42,5 +20,27 @@ end
 
 kitty = Cat.new('Sophie')
 kitty.greet
-kitty.name = 'Luna'
-kitty.greet
+kitty.walk
+
+# Walk the Cat
+# 
+# Using the following code, create a module named Walkable that contains a method named #walk. This method should print Let's go for a walk! when invoked. Include Walkable in Cat and invoke #walk on kitty.
+# 
+# class Cat
+#   attr_reader :name
+# 
+#   def initialize(name)
+#     @name = name
+#   end
+# 
+#   def greet
+#     puts "Hello! My name is #{name}!"
+#   end
+# end
+# 
+# kitty = Cat.new('Sophie')
+# kitty.greet
+# Expected output:
+# 
+# Hello! My name is Sophie!
+# Let's go for a walk!
