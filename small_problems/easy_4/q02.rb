@@ -5,7 +5,7 @@
 # 
 # Examples:
 
-# ↓ failed
+# ↓ failed........!!
 def century(number)
   century_number = ((number - 1) / 100) + 1
   century_str = century_number.to_s
