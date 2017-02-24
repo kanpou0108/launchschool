@@ -6,11 +6,8 @@
 Problems a lot of beginning Rubyists encounter. Not a tutorial on Ruby.  
 Every language has quirk, and understanding Ruby's weill help you understand other languages too.
 
-
 # Today
 - reading Ruby's syntactical sugar
   - self
 - where does the code come from?
 - local variable scope
-
-

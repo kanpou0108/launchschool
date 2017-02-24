@@ -1,0 +1,33 @@
+# ... under construction 2017/02/24
+
+# Agenda
+Problems a lot of beginning Rubyists encounter. Not a tutorial on Ruby. 
+Every language has quirk, and understanding Ruby's weill help you understand other languages too.
+
+# Today
+- reading Ruby's syntactical sugar
+  - self
+- where does the code come from?
+- local variable scope
+
+
+# Variables
+- diffrents types of Variables
+- Variables as pointers
+- variable scope
+- variable initialization vs re-assignment
+- naming
+
+# Methods
+- method arguments
+- implicit return value
+- side effects
+- writing methods that are easy to invoke
+- naming
+
+# Simple Collection Data Structures
+
+# Question Time (59:00~)
+- bootcamp refugees.
+- master the fundamental, and then learning additional stuffs so much easier.
+
