@@ -5,7 +5,9 @@
 # Last Webinar
 - reading Ruby's syntactical sugar
 - where does the code come from?
+
 - local variable scope
+  - 00:00 ~ 04:22
 - pass by reference vs pass by value
 - questions
 

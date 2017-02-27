@@ -1,12 +1,12 @@
 def a_method(param)
-  #reassignment 
+  # 1. reassignment (not inialization)
   # param += " world"  # param = param + " world"
   
-  # method invocation. `+`と`.+()`は同義. sytactical sugar.
+  # 2. method invocation. `+`と`.+()`は同義. sytactical sugar.
   # not mutate call.
   param + " world"
   
-  # method invocation. left shift double operator.
+  # 3. method invocation. left shift double operator.
   # mutate(permanent destructive) call.
   # param << " world"
 end
