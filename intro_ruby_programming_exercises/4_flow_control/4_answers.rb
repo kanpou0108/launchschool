@@ -1,7 +1,8 @@
+# What will each block of code below print to the screen? 
+# Write your answer on a piece of paper or in a text editor and then run each block of code to see if you were correct.
+
 # 1. FALSE
-
 # 2. Did you get it right?
-
 # 3. Alright now!
 
 '4' == 4 ? puts("TRUE") : puts("FALSE")

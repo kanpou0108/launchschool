@@ -1,3 +1,7 @@
+# Rewrite your program from exercise 3 using a case statement. 
+# Wrap the statement from exercise 3 in a method and wrap this new case statement in a method. 
+# Make sure they both still work.
+
 def evaluate_case2_num(num)
   case num
   when 0..50
