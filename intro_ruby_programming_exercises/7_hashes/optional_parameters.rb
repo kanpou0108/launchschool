@@ -10,3 +10,6 @@ end
 greeting("Bob")
 
 greeting("Bob", {age: 62, city: "New York City"})
+
+# hash's curly braces can be omitted when using method argument.
+greeting("Bob", age: 62, city: "New York City")
