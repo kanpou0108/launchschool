@@ -1,0 +1,14 @@
+Symbol Syntax
+
+Using the ruby documentation, determine how you would write a Symbol that represents your name. 
+We aren't looking for a String; we want a Symbol, which is one of ruby's datatypes.
+
+:Mary
+
+Discussion
+
+Documentation for symbol literals is on the literals.rdoc page.
+
+File: literals.rdoc [Ruby 2.4.0]
+http://ruby-doc.org/core-2.4.0/doc/syntax/literals_rdoc.html#label-Symbols
+
