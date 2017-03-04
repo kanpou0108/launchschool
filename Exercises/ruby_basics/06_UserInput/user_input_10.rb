@@ -1,3 +1,17 @@
+# Opposites Attract
+# 
+# Write a program that requests two integers from the user, adds them together, and then displays the result. 
+# Furthermore, insist that one of the integers be positive, and one negative; however, the order in which the two integers are entered does not matter.
+# 
+# Do not check for positive/negative requirement until after both integers are entered, and start over if the requirement is not met.
+# 
+# You may use the following method to validate input integers:
+# 
+# def valid_number?(number_string)
+#   number_string.to_i.to_s == number_string && number_string.to_i != 0
+# end
+# Examples:
+# 
 # $ ruby opposites.rb
 # >> Please enter a positive or negative integer:
 # 8
@@ -20,6 +34,7 @@
 # >> Please enter a positive or negative integer:
 # 5
 # -7 + 5 = -2
+# 
 
 def valid_number?(number_string)
   number_string.to_i.to_s == number_string && number_string.to_i != 0
