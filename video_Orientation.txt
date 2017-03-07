@@ -1,0 +1,43 @@
+Agenda:
+- user your real name
+- welcome
+  - goal of this prep course
+    - develop programmer mindset/habits
+    - Ruby
+  - time commitment
+
+- Teaching format
+  - flipped the classroom
+  - requires self discipline/commitment
+  - our courses are hard
+  - we realize not everyone is a good fi
+
+- Learning to code vs program
+  - first, Ruby grammar & syntax (Englsih grammar/vocabulary)
+  - second, building applications (writing essays/novels)
+  - very frsutrating to jump between the two
+  - pseudo code
+  
+- Looking for help
+  - Search using the "right pharases"
+    - use the stack trace
+    - reading error messages
+    - adding "ruby"
+  - Stack Overflow
+  - Ruby Docs
+    - Not Rails Docs
+
+- Debugging
+  - dealing with frustration
+  - reading error messages
+  - techniques
+    - "rubber duck debugging"
+    - line by line breakdown
+    - walking away
+    - debugger or pry
+
+- Asking for Help
+  - treat us like coworkers
+  - push everything to github
+  - 
+    
