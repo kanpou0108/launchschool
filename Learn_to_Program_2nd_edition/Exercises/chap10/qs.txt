@@ -1,0 +1,48 @@
+10.2 Rite of Passage: Sorting
+Remember the sorting program you wrote on page 56 where you asked for a list of words, sorted it, and then displayed the sorted list? The program was made much easier because you used the array’s sort method. But, like the Jedi who constructs his own lightsaber, you’ll exhibit a greater mastery if you write your own sorting method. Hey, we’ve all done it. It’s not easy, but this kind of problem solving is part of nearly every program you’ll write, so you’d best get your practice now.
+But where do you begin? Much like with continent_size, it’s probably best to try to solve the problem in English first. Then translate it into Ruby when you’ve wrapped your head around it.
+So, we want to sort an array of words, and we know how to find out which of two words comes first in the dictionary (using <).
+What strikes me as probably the easiest way to do this is to keep two more lists around: one will be our list of already-sorted words, and the other will be our list of still-unsorted words. We’ll take our list of words, find the “smallest” word (that is, the word that would come first in the dictionary), and stick it at the end of the already-sorted list. All of the other words go into the still-unsorted list. Then you do the same thing again but using the still- unsorted list instead of your original list: find the smallest word, move it to the sorted list, and move the rest to the unsorted list. Keep going until your still-unsorted list is empty.
+That doesn’t sound too bad, but it’s keeping all of the details straight that makes it so tricky. Go ahead and try it, and see how it looks. In fact, try it twice: once using recursion and once without. With the recursion, you might need a wrapper method, a tiny method that wraps up another method into a cute little package, like this:
+
+def sort some_array # This "wraps" recursive_sort. 
+  recursive_sort some_array, []
+end
+
+def recursive_sort unsorted_array, sorted_array 
+  # Your fabulous code goes here.
+end
+
+What was the point of the wrapper method? Well, recursive_sort took two parameters, but if you were just trying to sort an array, you would always have to pass in an empty array as the second parameter. This is a silly thing to have to remember. Here, the wrapper method passes it in for us, so we never have to think about it again.
+When you’re done, make sure to test your code! Type in duplicate words and things like that. A great way to test would be to use the built-in sort method to get a sorted version of your list right away. Then, after you have sorted it for yourself, make sure the two lists are equal.
+
+
+10.3 A Few Things to Try
+• Shuffle. 
+Now that you’ve finished your new sorting algorithm, how about the opposite? 
+Write a shuffle method that takes an array and returns a to- tally shuffled version. 
+As always, you’ll want to test it, but testing this one is trickier: How can you test to make sure you are getting a perfect shuffle? 
+What would you even say a perfect shuffle would be? Now test for it.
+
+• Dictionary sort. 
+Your sorting algorithm is pretty good, sure. But there was always that sort of embarrassing point you were hoping I’d just sort of gloss over, right? About the capital letters? Your sorting algorithm is good for general-purpose sorting, but when you sort strings, you are using the ordering of the characters in your fonts (called the ASCII codes) rather than true dictionary ordering. 
+In a dictionary, case (upper or lower) is irrelevant to the ordering. So, make a new method to sort words (something like dictionary_sort). 
+Remember, though, that if I give your program words starting with capital letters, it should return words with those same cap- ital letters, just ordered as you’d find in a dictionary.
+
+
+10.5 A Few More Things to Try
+• Expanded english_number. 
+First, put in thousands; it should return 'one thousand' instead of (the sad) 'ten hundred' and 'ten thousand' instead of 'one hundred hundred'.
+Now expand upon english_number some more. 
+For example, put in millions so you get 'one million' instead of 'one thousand thousand'. 
+Then try adding bil- lions, trillions, and so on.
+
+• Wedding number. 
+How about wedding_number? It should work almost the same as english_number, except it should insert the word and all over the place, returning things like 'nineteen hundred and seventy and two', or however wedding invitations are supposed to look. 
+I’d give you more examples, but I don’t fully understand it myself. 
+You might need to contact a wedding coordinator to help you. (I’m really just kidding. You don’t have to do this one. I didn’t even do this one.)
+
+• “Ninety-nine Bottles of Beer on the Wall.” 
+Using english_number and your old program on page 49, write out the lyrics to this song the right way this time. 
+Punish your computer: have it start at 9999. (Don’t pick a number too large, though, because writing all of that to the screen takes your computer quite a while. 
+A hundred thousand bottles of beer takes some time; and if you pick a million, you’ll be punishing yourself as well!)

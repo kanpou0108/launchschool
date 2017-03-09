@@ -1,0 +1,20 @@
+Preface to the Second Edition
+Introduction
+
+1.  Getting Started
+2.  Numbers
+3.  Letters
+4.  Variables and Assignment
+5.  Mixing It Up
+6.  More About Methods
+7.  Flow Control
+8.  Arrays and Iterators
+9.  Writing Your Own Methods
+10. There’s Nothing New to Learn in Chapter 10
+11. Reading and Writing, Saving and Loading, Yin and…Something Else
+12. New Classes of Objects
+13. Creating New Classes, Changing Existing Ones
+14. Blocks and Procs
+15. Beyond This Fine Book
+
+A1. Possible Solutions
