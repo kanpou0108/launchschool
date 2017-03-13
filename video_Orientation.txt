@@ -10,7 +10,7 @@ Agenda:
   - flipped the classroom
   - requires self discipline/commitment
   - our courses are hard
-  - we realize not everyone is a good fi
+  - we realize not everyone is a good fit
 
 - Learning to code vs program
   - first, Ruby grammar & syntax (Englsih grammar/vocabulary)

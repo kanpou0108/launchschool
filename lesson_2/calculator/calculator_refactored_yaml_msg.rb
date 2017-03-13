@@ -1,3 +1,18 @@
+require 'yaml'
+# MESSAGES = YAML.load_file('calculator_messages.yml')
+MESSAGES = YAML.load_file('calculator_messages_i18n.yml')
+LANGUAGE = 'en'
+
+def messages(message, lang='en')
+  MESSAGES[lang][message]
+end
+
+def prompt_yaml(key)
+  # make sure the "messages" method is declared above this line
+  message = messages(key, LANGUAGE)
+  Kernel.puts("=> #{message}")
+end
+
 def prompt(message)
   puts "=> #{message}"
 end
@@ -20,20 +35,20 @@ def operation_to_message(op)
   end
 end
 
-prompt 'Welcome to Calculator! Enter your name:'
+prompt_yaml('welcome')
 
 name = nil
 loop do
   name = gets.chomp
 
   if name.empty?
-    prompt 'Make sure to use a valid name.'
+    prompt_yaml('valid_name')
   else
     break
   end
 end
 
-prompt "Hi #{name}!"
+prompt("Hi, #{name}")
 
 loop do # main loop
   first_number = nil

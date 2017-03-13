@@ -19,3 +19,13 @@ else
 end
 
 Kernel.puts "The result is : #{result}"
+
+
+# Class: String (Ruby 2_4_0)
+# http://ruby-doc.org/core-2.4.0/String.html#method-i-chomp
+
+# Class: String (Ruby 2_4_0)
+# http://ruby-doc.org/core-2.4.0/String.html#method-i-to_i
+# 
+# Class: String (Ruby 2_4_0)
+# http://ruby-doc.org/core-2.4.0/String.html#method-i-to_f

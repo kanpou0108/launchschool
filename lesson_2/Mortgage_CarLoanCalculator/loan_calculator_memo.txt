@@ -1,0 +1,19 @@
+Things to think about
+
+1. Where did that format method come from?
+  Kernel Modele - format method
+  Module: Kernel (Ruby 2_4_0)
+  https://ruby-doc.org/core-2.4.0/Kernel.html#method-i-format
+
+2. Note how we have to be very careful about converting inputs to integers or floats.
+  amount.to_f() < 0
+  
+3. This "$#{format('%02.2f', monthly_payment)}" is really hard to read, what's happening? 
+  Hint: study the Kernel#format documentation here.
+  
+  Module: Kernel (Ruby 2.2.0)
+  http://ruby-doc.org/core-2.2.0/Kernel.html#method-i-format
+
+4. What does the code look like with the optional parentheses removed? Can you still recognize it?
+  yes.
+  
