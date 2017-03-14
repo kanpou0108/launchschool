@@ -3,4 +3,6 @@
 advice = "Few things in life are as important as house training your pet dinosaur."
 
 p advice.match("Dino")
+# nil
 p advice.match("training")
+# <MatchData "training">
