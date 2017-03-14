@@ -1,6 +1,22 @@
-what is != and where should you use it? - - not equal
-put ! before something, like !user_name - - turns the object into its opposite boolean value
-put ! after something, like words.uniq! - - mutating version of the method
-put ? before something - - syntax error // ? : is the ternary operator for if...else
-put ? after something - - it can be part of the method name // ? : is the ternary operator for if...else
-put !! before something, like !!user_name - - turn the object into its boolean value 
+Question 2
+
+Describe the difference between ! and ? in Ruby. And explain what would happen in the following scenarios:
+
+1. what is != and where should you use it? - 
+  - not equal
+2. put ! before something, like !user_name - 
+  - turns the object into its opposite boolean value
+3. put ! after something, like words.uniq! - 
+  - mutating version of the method(usually. not all mutating method `!` suffix)
+4. put ? before something - 
+  - syntax error // ? : is the ternary operator for if...else
+5. put ? after something - 
+  - it can be part of the method name // ? : is the ternary operator for if...else
+6. put !! before something, like !!user_name - 
+  - turn the object into its boolean value 
+
+
+!= means "not equals"
+? : is the ternary operator for if...else
+!!<some object> is used to turn any object into their boolean equivalent. (Try it in irb)
+!<some object> is used to turn any object into the opposite of their boolean equivalent, just like the above, but opposite.

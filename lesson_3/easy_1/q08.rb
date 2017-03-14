@@ -1,3 +1,5 @@
+# Question 8
+
 # If we build an array like this:
 # 
 # flintstones = ["Fred", "Wilma"]
@@ -11,4 +13,5 @@ flintstones = ["Fred", "Wilma"]
 flintstones << ["Barney", "Betty"]
 flintstones << ["BamBam", "Pebbles"]
 
+p flintstones
 p flintstones.flatten!
