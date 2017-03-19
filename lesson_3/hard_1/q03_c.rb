@@ -13,3 +13,7 @@ mess_with_vars(one, two, three)
 puts "one is: #{one}"
 puts "two is: #{two}"
 puts "three is: #{three}"
+
+# one is: two
+# two is: three
+# three is: one
