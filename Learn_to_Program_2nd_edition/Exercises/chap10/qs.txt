@@ -26,6 +26,7 @@ Write a shuffle method that takes an array and returns a to- tally shuffled vers
 As always, you’ll want to test it, but testing this one is trickier: How can you test to make sure you are getting a perfect shuffle? 
 What would you even say a perfect shuffle would be? Now test for it.
 
+Ex.3
 • Dictionary sort. 
 Your sorting algorithm is pretty good, sure. But there was always that sort of embarrassing point you were hoping I’d just sort of gloss over, right? About the capital letters? Your sorting algorithm is good for general-purpose sorting, but when you sort strings, you are using the ordering of the characters in your fonts (called the ASCII codes) rather than true dictionary ordering. 
 In a dictionary, case (upper or lower) is irrelevant to the ordering. So, make a new method to sort words (something like dictionary_sort). 
@@ -33,17 +34,20 @@ Remember, though, that if I give your program words starting with capital letter
 
 
 10.5 A Few More Things to Try
+Ex.4
 • Expanded english_number. 
 First, put in thousands; it should return 'one thousand' instead of (the sad) 'ten hundred' and 'ten thousand' instead of 'one hundred hundred'.
 Now expand upon english_number some more. 
 For example, put in millions so you get 'one million' instead of 'one thousand thousand'. 
 Then try adding bil- lions, trillions, and so on.
 
+Ex.5
 • Wedding number. 
 How about wedding_number? It should work almost the same as english_number, except it should insert the word and all over the place, returning things like 'nineteen hundred and seventy and two', or however wedding invitations are supposed to look. 
 I’d give you more examples, but I don’t fully understand it myself. 
 You might need to contact a wedding coordinator to help you. (I’m really just kidding. You don’t have to do this one. I didn’t even do this one.)
 
+Ex.6
 • “Ninety-nine Bottles of Beer on the Wall.” 
 Using english_number and your old program on page 49, write out the lyrics to this song the right way this time. 
 Punish your computer: have it start at 9999. (Don’t pick a number too large, though, because writing all of that to the screen takes your computer quite a while. 

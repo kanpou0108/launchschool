@@ -1,8 +1,13 @@
 2.5 A Few Things to Try
 Write a program that tells you the following:
+
+Ex.1
 • Hours in a year. How many hours are in a year?
+Ex.2
 • Minutes in a decade. How many minutes are in a decade?
+Ex.3
 • Your age in seconds. How many seconds old are you? (I’m not going to check your answer, so be as accurate—or not—as you want.)
 
 Here’s a tougher question:
+Ex.4
 • Our dear author’s age. If I am 1,160 million seconds old (which I am, though I was somewhere in the 800 millions when I started this book), how old am I?
