@@ -1,3 +1,4 @@
+Ex.1
 10.2 Rite of Passage: Sorting
 Remember the sorting program you wrote on page 56 where you asked for a list of words, sorted it, and then displayed the sorted list? The program was made much easier because you used the array’s sort method. But, like the Jedi who constructs his own lightsaber, you’ll exhibit a greater mastery if you write your own sorting method. Hey, we’ve all done it. It’s not easy, but this kind of problem solving is part of nearly every program you’ll write, so you’d best get your practice now.
 But where do you begin? Much like with continent_size, it’s probably best to try to solve the problem in English first. Then translate it into Ruby when you’ve wrapped your head around it.
@@ -18,6 +19,7 @@ When you’re done, make sure to test your code! Type in duplicate words and thi
 
 
 10.3 A Few Things to Try
+Ex.2
 • Shuffle. 
 Now that you’ve finished your new sorting algorithm, how about the opposite? 
 Write a shuffle method that takes an array and returns a to- tally shuffled version. 
