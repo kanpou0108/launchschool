@@ -10,6 +10,7 @@ contacts.each_with_index do |(_, hash), idx|
 end
 
 p contacts
+# {"Joe Smith"=>{:email=>"joe@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"}, "Sally Johnson"=>{:email=>"sally@email.com", :address=>"404 Not Found Dr.", :phone=>"123-234-3454"}}
 p contact_data
-# Solution to bonus, where we can work with multiple entries in the contacts hash:
+# [["joe@email.com", "123 Main st.", "555-123-4567"], ["sally@email.com", "404 Not Found Dr.", "123-234-3454"]]
 

@@ -9,7 +9,9 @@ contacts.each do |name, hash|
 end
 
 p contacts
+# {"Joe Smith"=>{:email=>"joe@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"}}
 p contact_data
+# []
 
 # In exercise 12, we manually set the contacts hash values one by one. 
 # Now, programmatically loop or iterate over the contacts hash from exercise 12, and populate the associated data from the contact_data array. 
