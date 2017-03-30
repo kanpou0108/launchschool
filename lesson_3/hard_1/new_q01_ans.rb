@@ -7,3 +7,4 @@ if false
 end
 
 p greeting
+# nil

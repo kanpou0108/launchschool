@@ -9,4 +9,6 @@ def str
 end
 
 p str
-# if both variable and method are decleared in same name, variable is referenced.
+p(str())
+# if both variable and method are declared(defined) in same name, variable is referenced.
+

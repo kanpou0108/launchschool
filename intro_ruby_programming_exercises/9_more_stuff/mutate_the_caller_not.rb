@@ -3,6 +3,8 @@ def test(b)
 end
 
 a = ['a', 'b', 'c']
+
 p test(a)
 p a
-
+# ["I like the letter: a", "I like the letter: b", "I like the letter: c"]
+# ["a", "b", "c"]

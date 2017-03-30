@@ -1,0 +1,54 @@
+Paul Ford: What Is Code? | Bloomberg
+https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+
+1. The Man in the Taupe Blazer
+1.1 Why Are We Here?
+
+2. Let’s Begin
+2.1 How Do You Type an “A”?
+2.2 From Hardware to Software
+2.3 How Does Code Become Software?
+2.4 What Is an Algorithm?
+2.5 The Sprint
+2.6 What’s With All These Conferences, Anyway?
+
+3. Why Are Programmers So Intense About Languages?
+3.1 The Beauty of the Standard Library
+3.2 What Do Different Languages Do?
+3.3 The Importance of C
+3.4 The Corporate Object Revolution
+3.5 Look How Big and Weird Things Get With Just Python
+
+4. Why Are Coders Angry?
+4.1 The Legend of the 10x Programmer
+4.2 The Thing About Real Artists Is That They—
+4.3 We Still Need to Choose …
+4.4 Why Are There So Many Languages?
+
+5. The Time You Attended the E-mail Address Validation Meeting
+5.1 What Is the Relationship Between Code and Data?
+5.2 Where Does Data Live?
+5.3 The Language of White Collars
+5.4 Briefly on the Huge Subject of Microsoft
+5.5 Liquid Infrastructure
+5.6 Off the Shelf
+5.7 What About JavaScript?
+5.8 What’s the Absolute Minimum I Must Know About PHP?
+
+6. How Are Apps Made?
+6.1 The Framework: Wilder, Younger Cousin of the Software Development Kit
+6.2 What Is Debugging?
+6.3 Nothing Is Built
+6.4 How Does Testing Work?
+6.5 And Now for Something Beautiful
+
+7. The Triumph of Middle Management
+7.1 How Do You Pick a Programming Language?
+7.2 Welcome to the Scrum
+7.3 Managing  Programmers
+7.4 “We Are  Going to Ship”
+7.5 Should You Learn to Code?
+
+
+Data Structures: Objects and Arrays :: Eloquent JavaScript
+http://eloquentjavascript.net/04_data.html
