@@ -11,6 +11,6 @@ new_arr = arr.sort_by do |sub_arr|
     num.odd?
   end
 end
-# => [[1, 8, 3], [1, 6, 7], [1, 4, 9]]
 
 p new_arr
+# => [[1, 8, 3], [1, 6, 7], [1, 4, 9]]

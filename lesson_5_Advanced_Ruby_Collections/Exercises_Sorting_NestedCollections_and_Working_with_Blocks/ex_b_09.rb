@@ -19,3 +19,4 @@ new_arr = arr.map do |sub_arr|
 end
 
 p new_arr
+# => [["c", "b", "a"], [3, 2, 1], ["green", "blue", "black"]]

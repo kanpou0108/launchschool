@@ -15,3 +15,4 @@ new_arr = arr.map do |sub_arr|
 end
 
 p new_arr
+# => [[], [3], [9], [15]]
