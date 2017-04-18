@@ -15,3 +15,4 @@ def prime?(number)
 end
 
 p find_primes(3, 10)
+# => "3, 5, 7"
